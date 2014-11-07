@@ -26,9 +26,8 @@ if x > 2: # number is within the range of prime numbers
             # appends integer to end of list
             list1.append(i)
     # prints entire list
-   # for item in list1:
-       # print item,
-    print(str(list1)[1:-1]) # condensed way to print numbers
+    for item in list1:
+        print(item) #Bill: fixed print function
 elif x == 2: # number is the lowest prime number
     print(x)
 else: # no prime numbers found within range of input
